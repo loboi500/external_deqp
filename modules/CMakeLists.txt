@@ -1,13 +1,3 @@
-# dEQP Modules
-add_subdirectory(glshared)
-add_subdirectory(gles2)
-add_subdirectory(gles3)
-add_subdirectory(gles31)
-add_subdirectory(egl)
-
-# Misc
-add_subdirectory(internal)
-
-# Pass DEQP_MODULE_LIBRARIES and DEQP_MODULE_ENTRY_POINTS
-set(DEQP_MODULE_LIBRARIES ${DEQP_MODULE_LIBRARIES} PARENT_SCOPE)
-set(DEQP_MODULE_ENTRY_POINTS ${DEQP_MODULE_ENTRY_POINTS} PARENT_SCOPE)
+version https://git-lfs.github.com/spec/v1
+oid sha256:7aa61b946f03ce4730f63b0b2925c4e816505dbf08b428dbcc12f80ac41b157e
+size 367

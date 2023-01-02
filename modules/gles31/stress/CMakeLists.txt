@@ -1,17 +1,3 @@
-# dEQP-GLES31.stress
-
-set(DEQP_GLES31_STRESS_SRCS
-	es31sDrawTests.cpp
-	es31sDrawTests.hpp
-	es31sStressTests.cpp
-	es31sStressTests.hpp
-	es31sVertexAttributeBindingTests.cpp
-	es31sVertexAttributeBindingTests.hpp
-	es31sTessellationGeometryInteractionTests.cpp
-	es31sTessellationGeometryInteractionTests.hpp
-	)
-
-PCH(DEQP_GLES31_STRESS_SRCS ../../pch.cpp)
-
-add_library(deqp-gles31-stress STATIC ${DEQP_GLES31_STRESS_SRCS})
-target_link_libraries(deqp-gles31-stress deqp-gl-shared glutil tcutil ${DEQP_GLES31_LIBRARIES})
+version https://git-lfs.github.com/spec/v1
+oid sha256:ffcb4f85f87b0815ae7b1863147ace01b6aa8c3cc7df5b2c134d36d1f3bde623
+size 514

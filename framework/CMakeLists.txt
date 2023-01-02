@@ -1,27 +1,3 @@
-# Test framework cmake file
-
-# C integration library
-add_subdirectory(qphelper)
-
-# Common test util (tcutil).
-add_subdirectory(common)
-
-# Common OpenGL utilities
-add_subdirectory(opengl)
-
-# EGL utilities
-add_subdirectory(egl)
-
-# XE xml util
-add_subdirectory(xexml)
-
-if (IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/randomshaders)
-	add_subdirectory(randomshaders)
-endif ()
-
-if (IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/referencerenderer)
-	add_subdirectory(referencerenderer)
-endif ()
-
-# Platform library
-add_subdirectory(platform)
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbcaf076dbd4bc8e7cb38bfee6771ddb19be07e2a347b21c511f5dd267e8e1a7
+size 526

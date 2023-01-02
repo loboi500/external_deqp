@@ -1,33 +1,3 @@
-
-set(RR_SRCS
-	rrDefs.cpp
-	rrDefs.hpp
-	rrFragmentOperations.cpp
-	rrFragmentOperations.hpp
-	rrFragmentPacket.hpp
-	rrGenericVector.hpp
-	rrMultisamplePixelBufferAccess.cpp
-	rrMultisamplePixelBufferAccess.hpp
-	rrPrimitiveAssembler.hpp
-	rrPrimitivePacket.cpp
-	rrPrimitivePacket.hpp
-	rrPrimitiveTypes.hpp
-	rrRasterizer.cpp
-	rrRasterizer.hpp
-	rrRenderer.cpp
-	rrRenderer.hpp
-	rrRenderState.hpp
-	rrShaders.cpp
-	rrShaders.hpp
-	rrShadingContext.cpp
-	rrShadingContext.hpp
-	rrVertexAttrib.cpp
-	rrVertexAttrib.hpp
-	rrVertexPacket.cpp
-	rrVertexPacket.hpp
-	)
-
-PCH(RR_SRCS ../pch.cpp)
-
-add_library(referencerenderer STATIC ${RR_SRCS})
-target_link_libraries(referencerenderer tcutil)
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d2fa0ce179a8671de680ea86f7a0f9fa21991408c2bdb57d48e311970e9820e
+size 665

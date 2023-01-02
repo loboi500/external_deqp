@@ -1,20 +1,3 @@
-set(DESTERAM_SRCS
-	deIOStream.h
-	deInStream.h
-	deOutStream.h
-	deFileStream.h
-	deFileStream.c
-	deRingbuffer.h
-	deRingbuffer.c
-	deStreamCpyThread.h
-	deStreamCpyThread.c
-	deThreadStream.h
-	deThreadStream.c
-	)
-
-set(DESTREAM_LIBS
-	deutil
-	)
-
-add_library(destream ${DESTERAM_SRCS})
-target_link_libraries(destream ${DESTREAM_LIBS})
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f29c41173e2bdea5c13051afc0d10149ae0a7d9f6ea16ffce7034643003e975
+size 325

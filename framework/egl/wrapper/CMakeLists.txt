@@ -1,24 +1,3 @@
-# EGL Wrapper
-
-set(EGLWRAPPER_SRCS
-	eglwDefs.cpp
-	eglwDefs.hpp
-	eglwEnums.hpp
-	eglwFunctions.hpp
-	eglwFunctions.cpp
-	eglwLibrary.hpp
-	eglwLibrary.cpp
-	eglwWrapper.hpp
-	eglwWrapper.cpp
-	eglw.h
-	)
-
-set(EGLWRAPPER_LIBS
-	debase
-	deutil
-	decpp
-	${DEQP_EGL_LIBRARIES}
-	)
-
-add_library(eglwrapper STATIC ${EGLWRAPPER_SRCS})
-target_link_libraries(eglwrapper ${EGLWRAPPER_LIBS})
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a3b8c39e0d440b5baa7e0bcd3c58d4f27f6a7473870a0f9ab422ea81691579a
+size 369

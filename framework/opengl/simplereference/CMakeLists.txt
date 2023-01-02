@@ -1,21 +1,3 @@
-# Simple GLESx reference
-
-set(SGLR_SRCS
-	sglrContext.cpp
-	sglrContext.hpp
-	sglrContextUtil.hpp
-	sglrContextUtil.cpp
-	sglrContextWrapper.cpp
-	sglrContextWrapper.hpp
-	sglrReferenceContext.cpp
-	sglrReferenceContext.hpp
-	sglrReferenceUtils.cpp
-	sglrReferenceUtils.hpp
-	sglrShaderProgram.cpp
-	sglrShaderProgram.hpp
-	sglrGLContext.cpp
-	sglrGLContext.hpp
-	)
-
-add_library(glutil-sglr STATIC ${SGLR_SRCS})
-target_link_libraries(glutil-sglr glutil tcutil referencerenderer ${DEQP_GLES2_LIBRARIES})
+version https://git-lfs.github.com/spec/v1
+oid sha256:3aa731835c5746371341d509a6d9cf81433b7bcb6755c4b983a8b9b001bfc96a
+size 488

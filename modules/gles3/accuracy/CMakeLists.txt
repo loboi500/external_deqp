@@ -1,17 +1,3 @@
-# dEQP-GLES3.accuracy
-
-set(DEQP_GLES3_ACCURACY_SRCS
-	es3aAccuracyTests.cpp
-	es3aAccuracyTests.hpp
-	es3aTextureFilteringTests.cpp
-	es3aTextureFilteringTests.hpp
-	es3aTextureMipmapTests.cpp
-	es3aTextureMipmapTests.hpp
-	es3aVaryingInterpolationTests.cpp
-	es3aVaryingInterpolationTests.hpp
-	)
-
-PCH(DEQP_GLES3_ACCURACY_SRCS ../../pch.cpp)
-
-add_library(deqp-gles3-accuracy STATIC ${DEQP_GLES3_ACCURACY_SRCS})
-target_link_libraries(deqp-gles3-accuracy deqp-gl-shared glutil tcutil ${DEQP_GLES3_LIBRARIES})
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1d6de85581a20cf662389da28dac8beb5f284e453c20008f4141f3d319ac3c0
+size 499
